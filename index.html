@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart</title>
+</head>
+<body bgcolor="#FFF8DC">
+    <div id="cartContainer">
+        <div id="cartList" tabindex="1">
+            <p id="cartIcon"><i class="fas fa-cart-arrow-down"></i></p>
+            <p><span id="cartCount">0 </span> Items - ₹<span id="cartPrice">0</span></p>
+        </div>
+        <div id="cartListModal">
+            <div id="cartModalData"></div>
+            <div id="cartModalDefault">
+              <p>Total <span id="cartModalTotal"> 0 </span>₹</p>
+                <div id="btnGroup">
+                    <button id="clearCart">Clear Cart</button>
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <header>
+            <h1>Sweet salvation</h1>
+            <div id="category">
+                <button data-category="all">All</button>
+                <button data-category="cake">Cake</button>
+                <button data-category="cupcake">Cupcake</button>
+                <button data-category="dougnut">Dougnut</button>
+                <button data-category="sweet">Sweet</button>
+            </div>
+            <div id="search">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+                <input type="text" placeholder="search" />
+            </div>
+        </header>
+        <main>
+
+            <div data-item="cake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/HpMdrcR/cake-1.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cake Item</p>
+                    <p class="item-price">₹20</p>
+                </div>
+            </div>
+            <div data-item="cupcake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/5WzFqj3/cupcake-1.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cupcake Item</p>
+                    <p class="item-price">₹25</p>
+                </div>
+            </div>
+            <div data-item="dougnut" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/k6DKnft/doughnut-1.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Dougnut Item</p>
+                    <p class="item-price">₹15</p>
+                </div>
+            </div>
+
+
+            <div data-item="sweet" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/7S9FQ6C/sweets-1.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Sweet Item</p>
+                    <p class="item-price">₹50</p>
+                </div>
+            </div>
+            <div data-item="cake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/3sJD7w5/cake-2.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cake Item</p>
+                    <p class="item-price">₹20</p>
+                </div>
+            </div>
+            <div data-item="cupcake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/p4gx4hm/cupcake-2.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cupcake Item</p>
+                    <p class="item-price">₹25</p>
+                </div>
+            </div>
+            <div data-item="dougnut" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/sqLKCLn/doughnut-2.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Dougnut Item</p>
+                    <p class="item-price">₹15</p>
+                </div>
+            </div>
+            <div data-item="sweet" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/P6XGqB5/sweets-2.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Sweet Item</p>
+                    <p class="item-price">₹50</p>
+                </div>
+            </div>
+            <div data-item="cake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/ysFJq6Q/cake-3.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cake Item</p>
+                    <p class="item-price">₹20</p>
+                </div>
+            </div>
+            <div data-item="cupcake" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/HY5dGWh/cupcake-3.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Cupcake Item</p>
+                    <p class="item-price">₹25</p>
+                </div>
+            </div>
+            <div data-item="dougnut" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/4FmsMRr/doughnut-3.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Dougnut Item</p>
+                    <p class="item-price">₹30</p>
+                </div>
+            </div>
+            <div data-item="sweet" class="card-container">
+                <div class="img-container">
+                    <img src="https://i.ibb.co/WsJBWxP/sweets-3.jpg" />
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="card-body">
+                    <p class="item-name">Sweet Item</p>
+                    <p class="item-price">₹30</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <div class="modalContainer">
+        <div class="modal">
+            <img class="modalImage" src="./img/cake-1.jpeg" />
+            <div class="icons">
+                <i class="fas fa-arrow-circle-left"></i>
+                <i class="fas fa-arrow-circle-right"></i>
+                <i class="fas fa-window-close"></i>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="image">
+      
+    </div>
+
+    <form action="">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="inputBox">
+            <input type="text" required>
+            <label>name</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" required>
+            <label>email</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="number" required>
+            <label>phone</label>
+        </div>
+
+        <div class="inputBox">
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+            <label>message</label>
+        </div>
+
+        <input type="submit" class="btn" value="send message">
+
+    </form>
+
+</section>
+
+
+
+
+<hr>
+<br>
+<br>
+<br>
+<h1 style="margin-left: 100px;color: chocolate;">Chat with our bot for prices and order and  rate our bakery</h1>
+<br>
+
+
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>1010 Avenue, sw 54321, chandigarh</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>+91 1234567890</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
