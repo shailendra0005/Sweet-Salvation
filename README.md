@@ -31,6 +31,6 @@ Some of the images taken while creating the bot and hosting it
 ![5 - creating static web app](https://user-images.githubusercontent.com/88374001/164972402-6072dbb4-efe5-463f-9c36-1f91652610b7.png)
 
 6 - Successfully hosted webpage on the static web app service
-![6 - Succesfully hosted  webpage on to the static web app service](https://user-images.githubusercontent.com/88374001/164972427-e4233651-df08-479c-a30f-ddfafc6b7e2d.png)
+![Screenshot (438)](https://user-images.githubusercontent.com/88374001/164979356-318ec175-3764-48df-8921-4a8f5e40769c.png)
 
 
