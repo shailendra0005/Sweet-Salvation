@@ -4,6 +4,7 @@ The bot can take orders from the customers and take feedback too
 I have created this website using html , css & javascipt and i have used AZURE BOT SERVICE , STATIC WEB APP to host the website .
 
 Link to my project  (Sweet Salvation) --> https://gentle-sand-04edbbf10.1.azurestaticapps.net/
+Link to my project demo vedio (Sweet Salvation) --> https://youtu.be/jGWIE8raD_g
 
 Homepage of my website 
 
