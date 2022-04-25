@@ -14,6 +14,10 @@ Chatbot in my website
 
 ![chat bot working 2](https://user-images.githubusercontent.com/88374001/164972292-93f999db-e0b0-4883-a199-e3e2a51f71d0.png)
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Some of the images taken while creating the bot and hosting it 
 
 1- Creating a QnA maker
