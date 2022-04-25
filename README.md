@@ -6,7 +6,8 @@ I have created this website using html , css & javascipt and i have used AZURE B
 Link to my project  (Sweet Salvation) --> https://gentle-sand-04edbbf10.1.azurestaticapps.net/
 
 
-Link to my project demo vedio (Sweet Salvation) --> https://youtu.be/jGWIE8raD_g
+Link to my project demo vedio (Sweet Salvation) -->   
+
 
 Homepage of my website 
 
